@@ -1,8 +1,54 @@
 *{
     margin: 0;
     padding: 0;
+    /* max-height: 100vh; */
+    box-sizing: border-box;
 }
 
-h1 {
-    text-align: center;
+.container-header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.my-photo {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.container-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    margin: 20px auto;
+}
+
+.left-side {
+    max-width: 35%;
+    padding: 10px;
+}
+
+.right-side {
+    max-width: 55%;
+    padding: 10px;
+}
+/* footer {
+    position: absolute;
+    bottom: 0;
+} */
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rss-logo {
+    width: 70px;
+}
+
+.footer-item {
+    padding: 20px;
 }
