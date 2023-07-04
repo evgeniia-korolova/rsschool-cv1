@@ -2,24 +2,68 @@
     margin: 0;
     padding: 0;
     /* max-height: 100vh; */
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
+
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+    
+}
 .container-header {
+    max-width: 1100px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+
+.header-photo {
+    width: 20%;
+    padding: 0 20px;
+}
+
+.header-info {
+    padding: 50px;
+    
 }
 
 .my-photo {
-    width: 15%;
+    width: 100%;
     border-radius: 50%;
 }
+
+h1 {
+    font-size: 64px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
 
 .container-main {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 main {
@@ -28,22 +72,35 @@ main {
 
 .left-side {
     max-width: 35%;
-    padding: 10px;
+    padding: 30px;
+    background:rgb(255, 233, 233);
+}
+
+.contacts {
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.education li {
+    padding-top: 10px;
 }
 
 .right-side {
     max-width: 55%;
     padding: 10px;
 }
-/* footer {
-    position: absolute;
-    bottom: 0;
-} */
+
 
 .container-footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top: 1px solid black;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 .rss-logo {
     width: 70px;
