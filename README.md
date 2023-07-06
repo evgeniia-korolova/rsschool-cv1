@@ -1,0 +1,2 @@
+[https://evgeniia-korolova.github.io/rsschool-cv/cv](https://evgeniia-korolova.github.io/rsschool-cv/cv)
+[https://evgeniia-korolova.github.io/rsschool-cv/](https://evgeniia-korolova.github.io/rsschool-cv/)
